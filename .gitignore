@@ -1,0 +1,67 @@
+# Системные файлы и ОС
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Python и окружение
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+
+# Зависимости и пакеты
+*.egg-info/
+*.egg
+dist/
+build/
+eggs/
+.eggs/
+
+# Редакторы и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# ML: Данные (сырые, обработанные, временные)
+data/raw/*
+data/processed/*
+data/external/*
+data/temp/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ML: Веса моделей и чекпоинты (тяжелые файлы)
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+*.onnx
+models/*
+!models/.gitkeep
+
+# ML: Логи и артефакты экспериментов
+wandb/
+mlruns/
+tensorboard/
+*.log
+runs/
+
+# Отчеты и результаты
+outputs/
+reports/figures/*
+
+.agents
